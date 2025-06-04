@@ -1,4 +1,4 @@
-const keep_alive = require('./src/keep.alive.js')
+const keep_alive = require('./keep.alive.js')
 
 require("dotenv").config();
 const {
