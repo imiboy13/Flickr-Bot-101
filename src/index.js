@@ -1,4 +1,10 @@
-const keep_alive = require('keep.alive.js')
+var http = require ('http');
+
+http.createServer(function (req, res) {
+  res.write("I'm Alive!");
+  res.end();
+}).listen(8080);
+
 
 require("dotenv").config();
 const {
