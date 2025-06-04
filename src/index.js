@@ -1,3 +1,5 @@
+const keep_alive = require('./src/keep.alive.js')
+
 require("dotenv").config();
 const {
   Client,
